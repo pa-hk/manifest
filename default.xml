@@ -9,6 +9,10 @@
           review="https://android-review.googlesource.com/"
           revision="refs/tags/android-14.0.0_r27" />
 
+  <remote  name="hk"
+           fetch="https://github.com/pa-hk"
+           revision="uvite" />
+
   <!-- CLO -->
   <remote name="clo-la"
           fetch="https://git.codelinaro.org/clo/la"
