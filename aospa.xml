@@ -77,9 +77,9 @@
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="hk" />
+  <project path="frameworks/av" name="AOSPA/android_frameworks_av" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="hk" />
+  <project path="frameworks/base" name="AOSPA/android_frameworks_base" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <project path="frameworks/libs/systemui" name="AOSPA/android_frameworks_libs_systemui" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
@@ -87,7 +87,7 @@
   <remove-project name="platform/frameworks/proto_logging" />
   <project path="frameworks/proto_logging" name="AOSPA/android_frameworks_proto_logging" remote="aospa" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="hk" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote"hk" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" />
   <remove-project name="platform/frameworks/libs/modules-utils" />
