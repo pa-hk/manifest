@@ -83,7 +83,7 @@
   <remove-project name="platform/frameworks/libs/systemui" />
   <project path="frameworks/libs/systemui" name="AOSPA/android_frameworks_libs_systemui" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="hk" />
   <remove-project name="platform/frameworks/proto_logging" />
   <project path="frameworks/proto_logging" name="AOSPA/android_frameworks_proto_logging" remote="aospa" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
@@ -160,7 +160,7 @@
   <remove-project name="platform/system/bpf" />
   <project path="system/bpf" name="AOSPA/android_system_bpf" remote="aospa" />
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="AOSPA/android_system_core" remote="aospa" />
+  <project path="system/core" name="android_system_core" remote="hk" />
   <remove-project name="platform/system/chre" />
   <project path="system/chre" name="AOSPA/android_system_chre" remote="aospa" />
   <remove-project name="platform/system/libfmq" />
@@ -184,7 +184,7 @@
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" />
   <remove-project name="platform/system/vold" />
-  <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" />
+  <project path="system/vold" name="android_system_vold" remote="hk" revision="uvite-1" />
   <remove-project name="platform/system/security" />
   <project path="system/security" name="AOSPA/android_system_security" remote="aospa" />
   <remove-project name="platform/system/nfc" />
